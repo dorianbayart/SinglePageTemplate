@@ -1,68 +1,53 @@
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-  
-    <header>
-      <div class="container">
-        {% include header.html %}
-      </div>
-    </header>
-  
-    <h1>
-      <a href='#principal'>
-        Titre principal
-      </a>
-    </h1>
-    
-    <div class="content">
-      Contenu principal
-    </div>
-    
-    <div class="section">
-      <h1>
-        <a href='#section1'>
-          Titre section 1
-        </a>
-      </h1>
-      <div class="content">
-        Contenu section 1
-      </div>
-    </div>
-    
-    <div class="section">
-      <h1>
-        <a href='#section2'>
-          Titre section 2
-        </a>
-      </h1>
-      <div class="content">
-        Contenu section 2
-      </div>
-    </div>
-    
-    <div class="section">
-      <h1>
-        <a href='#section3'>
-          Titre section 3
-        </a>
-      </h1>
-      <div class="content">
-        Contenu section 3
-      </div>
-    </div>
-    
-    <footer>
-      <div class="container">
-        {% include footer.html %}
-      </div>
-    </footer>
-    
-  </body>
-</html>
+---
+layout: default
+title: Principal
+---
+
+<h1>
+  <a href='#principal'>
+    Titre principal
+  </a>
+</h1>
+
+<div class="content">
+  Contenu principal
+</div>
+
+<div class="section">
+  <h1>
+    <a href='#section1'>
+      Titre section 1
+    </a>
+  </h1>
+  <div class="content">
+    Contenu section 1
+  </div>
+</div>
+
+<div class="section">
+  <h1>
+    <a href='#section2'>
+      Titre section 2
+    </a>
+  </h1>
+  <div class="content">
+    Contenu section 2
+  </div>
+</div>
+
+<div class="section">
+  <h1>
+    <a href='#section3'>
+      Titre section 3
+    </a>
+  </h1>
+  <div class="content">
+    Contenu section 3
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    {% include footer.html %}
+  </div>
+</footer>
