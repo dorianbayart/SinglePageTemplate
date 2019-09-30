@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+    <header>
+      <div class="container">
+        {% include header.html %}
+      </div>
+    </header>
+  
+    {{ content }}
+    
+    <footer>
+      <div class="container">
+        {% include footer.html %}
+      </div>
+    </footer>
+    
+  </body>
+</html>
