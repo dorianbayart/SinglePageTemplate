@@ -1,0 +1,15 @@
+
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: -webkit-fill-available;
+}
+
+footer {
+  flex-grow: 1;
+  display: flex;
+  
+  .container {
+    align-self: flex-end;
+  }
+}
