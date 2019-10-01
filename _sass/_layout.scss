@@ -2,7 +2,9 @@
 body {
   display: flex;
   flex-flow: column;
+  max-width: 980px;
   min-height: -webkit-fill-available;
+  margin: auto;
 }
 
 footer {
