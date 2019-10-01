@@ -40,7 +40,7 @@ form#contact {
     fieldset {
       border: transparent;
       
-      input {
+      input, select, textarea, button {
         width: 100%;
       }
     }
