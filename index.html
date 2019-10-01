@@ -44,6 +44,8 @@ title: Principal
     </a>
   </h1>
   <div class="content">
-    Formulaire contact
+    {% if contact.html %}
+      {% include contact.html %}
+    {% endif %}
   </div>
 </section>
